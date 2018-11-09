@@ -1,2 +1,2 @@
-name: FreeBSD Graphics Team Blog
-markdown: kramdown
+title: FreeBSD Graphics Team Blog
+theme: jekyll-theme-midnight
