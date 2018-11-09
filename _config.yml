@@ -4,3 +4,4 @@ theme: jekyll-theme-midnight
 plugins:
    - jekyll-sitemap
    - jekyll-paginate
+   - jekyll-archives
