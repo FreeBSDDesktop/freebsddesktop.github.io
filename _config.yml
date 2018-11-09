@@ -1,3 +1,5 @@
 title: FreeBSD Graphics Team Blog
 description: News, announcements and technical articles.
 theme: jekyll-theme-midnight
+plugins:
+   - jekyll-sitemap
