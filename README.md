@@ -1,2 +1,4 @@
-# freebsddesktop.github.io
-FreeBSD Graphics Team Blog
+# FreeBSD Graphics Team Blog
+
+[freebsddesktop.github.io](https://freebsddesktop.github.io)
+
