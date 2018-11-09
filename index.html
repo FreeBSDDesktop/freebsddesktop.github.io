@@ -9,7 +9,7 @@ title: FreeBSD Graphics Blog
    {% assign currentDate = post.date | date: "%Y" %}
    {% if currentDate != myDate %}
        {% unless forloop.first %}</ul>{% endunless %}
-       <h3>{{ currentDate }}</h3>
+       <h2>{{ currentDate }}</h2>
        <ul>
        {% assign myDate = currentDate %}
    {% endif %}
