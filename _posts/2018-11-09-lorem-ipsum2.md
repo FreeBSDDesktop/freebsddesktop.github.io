@@ -1,7 +1,7 @@
 ---
+# filename is used if no title here
 title: First Post
-author: Johannes Lundberg
-date: 2018-11-09
+author: zeising
 ---
 
 # Lorem ipsum
