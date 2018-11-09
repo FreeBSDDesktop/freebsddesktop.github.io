@@ -46,9 +46,13 @@
         <div id="main">
         {{ content }}
   
-        <p>Author: {{ post.author }}</p>
+        {% assign author = site.data.authors[page.author] %}
+        {% if author %}
+            <span>
+                Written by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+            </span>
+        {% endif %}
         </div>
-        
 
       </section>
     </div>
