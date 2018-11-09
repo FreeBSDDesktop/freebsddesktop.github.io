@@ -230,14 +230,13 @@ section {
   margin: 20px 0;
   margin-top: 20px;
  
-  #main {
-    width:80%;
-    float: left;
+  #sidebar {
+    width:200px;
+    font-size:80%;
   }
   
-  #sidebar {
-    width:20%;
-    float: left;
+  #main {
+    margin-left:230px;
   }
   
   #title {
