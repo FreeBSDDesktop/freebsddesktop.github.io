@@ -26,4 +26,4 @@ If no author is supplied, the post will be anonymous.
 
 ### Step 3: Publish
 
-Github pages will automatically rebuild the blog web site when the repository is updated. The new post will appear on the [blog web site](https://freebsddesktop.github.io) within 10 minutes (usually within seconds).
+Github pages will automatically rebuild the blog web site when this repository is updated (i.e. file saved using Github web UI or committed from command line). The new post will appear on the [blog web site](https://freebsddesktop.github.io) within 10 minutes (usually within seconds).
