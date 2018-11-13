@@ -22,7 +22,9 @@ author: johalun
 ```
 
 If no title is supplied, title will be derived from the filename.  
-If no author is supplied, the post will be anonymous. 
+If no author is supplied, the post will be anonymous.  
+  
+Write the post using Github markdown language.
 
 ### Step 3: Publish
 
