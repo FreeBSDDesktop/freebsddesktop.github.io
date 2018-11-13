@@ -12,6 +12,7 @@ Here you can find news, announcements and various technical mini-articles. Areas
 
 For more information we are also available here:
 - Mailing List: [freebsd-x11](https://lists.freebsd.org/mailman/listinfo/freebsd-x11)
+- Wiki: [wiki.freebsd.org/Graphics](https://wiki.freebsd.org/Graphics)
 - IRC: [#freebsd-xorg (EFnet)](irc://irc.efnet.org/freebsd-xorg)
 - Gitter: [FreeBSDDesktop/Lobby](https://gitter.im/FreeBSDDesktop/Lobby)
 - GitHub: [Various Repos](https://github.com/FreebsdDesktop)
