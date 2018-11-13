@@ -15,4 +15,4 @@ For more information we are also available here:
 - Wiki: [wiki.freebsd.org/Graphics](https://wiki.freebsd.org/Graphics)
 - IRC: [#freebsd-xorg (EFnet)](irc://irc.efnet.org/freebsd-xorg)
 - Gitter: [FreeBSDDesktop/Lobby](https://gitter.im/FreeBSDDesktop/Lobby)
-- GitHub: [Various Repos](https://github.com/FreebsdDesktop)
+- GitHub: [Our organization](https://github.com/FreeBSDDesktop)
