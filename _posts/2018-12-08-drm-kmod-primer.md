@@ -6,20 +6,20 @@ author: wright
 
 It is a very exciting time for FreeBSD graphics.  With the 12.0-RELEASE we have put in a lot of effort to provide
 support for modern graphics hardware.  What does this mean?  Well, for example, if you purchased a laptop in the past 10 years
-getting graphics support has been hit or miss on FreeBSD.  Some people would opt to purchase a system with an Nvidi GPU,
+getting graphics support has been hit or miss on FreeBSD.  Some people would opt to purchase a system with an Nvidia GPU,
 and rely on the propritary driver they provide.  But what about systems with integrated Intel HD or AMD Radeon GPU's
 which arguably compose a majority of market share?  There was no great answer here, forcing the user to use
 software accellerated graphics, or worse another OS.  Fortunately this is no longer the case with the introduction of the 
 `drm-kmod` port!
 
 This blog post should serve as a primer, providing a bit of background and a walk through of getting things working.  For
-the impatient, check out the tl;dr section at the end where you can just copy-pasta the required commands - but you wouldn't
+the impatient, check out the tl;dr section at the end where you can just copypasta the required commands - but you wouldn't
 do that without understanding what's happening right? :)
 
 ## What is drm-kmod?
 
 DRM stands for "Direct Rendering Manager" and is term taken from the Linux kernel development community refering to
-how they solved the issue to dealing with newer graphics processors.  It exposes an API that lets usre-space applications
+how they solved the issue to dealing with newer graphics processors.  It exposes an API that lets user-space applications
 directly interact with GPU's among other thing.  There is a great wikipedia entry [here](https://en.wikipedia.org/wiki/Direct_Rendering_Manager)
 on it that should help clarify a lot of the confusing vocabulary.
 
@@ -39,9 +39,9 @@ as seamless as possible.  Hopefully we will have an update for `bsdinstall` to a
 it's actually quite easy.  So what do you need?
 
 1. A system with either post Haswell Intel HD Graphics (see [here](https://en.wikipedia.org/wiki/Intel_Graphics_Technology) for a list)
-   or a system with AMD Raden HD7000 AMD GPU or newer (see [here](https://en.wikipedia.org/wiki/Radeon_HD_7000_Series) for a list).
+   or a system with AMD Radeon HD7000 AMD GPU or newer (see [here](https://en.wikipedia.org/wiki/Radeon_HD_7000_Series) for a list).
    
-2. A system running FreeBSD 12.0-RELEASE or newer.
+2. A system running FreeBSD 11.2-RELEASE or newer.
 
 ### Validate Hardware Is Supported
 
@@ -166,7 +166,7 @@ OpenGL renderer string: Mesa DRI Intel(R) HD Graphics 630 (Kaby Lake GT2)
 Huzzah - success!  Now time to play some games, watch some videos or even get some work done :)
 
 ## Support For Older Systems
-So what if you have an older system using say a Haswel era Intel CPU?  Historically the driver for this hardware has been
+So what if you have an older system using say a Haswell era Intel CPU?  Historically the driver for this hardware has been
 included in the base FreeBSD OS and will continue to be so in 12.0-RELEASE, but the expectation is it will be removed by 
 version 13.  To prepare for this eventuality a new port has been created named `drm-legacy-kmod`.  If you have one of these
 older systems and are having problems with graphics using the `drm-kmod` port, please try this legacy version.
@@ -182,7 +182,7 @@ updated enough so that more developers could dogfood the code they are working o
 not at least I was able to scratch an itch :)
 
 Also, we've updated the FreeBSD graphics wiki which you should check out:
-https://wiki.freebsd.org/Graphics
+[https://wiki.freebsd.org/Graphics](https://wiki.freebsd.org/Graphics)
 
 The plan is to keep this more regularly updated as support for more platforms and chipsets are brought onboard.
 
