@@ -38,7 +38,7 @@ In addition to making long term support easier, lots of effort has gone into mak
 as seamless as possible.  Hopefully we will have an update for `bsdinstall` to automate this setup process soon, but for now 
 it's actually quite easy.  So what do you need?
 
-1. A system with either post Haswell Intel HD Graphics (see [here](https://en.wikipedia.org/wiki/Intel_Graphics_Technology) for a list)
+1. A system with Haswell or newer Intel HD Graphics (see [here](https://en.wikipedia.org/wiki/Intel_Graphics_Technology) for a list)
    or a system with AMD Radeon HD7000 AMD GPU or newer (see [here](https://en.wikipedia.org/wiki/Radeon_HD_7000_Series) for a list).
    
 2. A system running FreeBSD 11.2-RELEASE or newer.
@@ -166,7 +166,7 @@ OpenGL renderer string: Mesa DRI Intel(R) HD Graphics 630 (Kaby Lake GT2)
 Huzzah - success!  Now time to play some games, watch some videos or even get some work done :)
 
 ## Support For Older Systems
-So what if you have an older system using say a Haswell era Intel CPU?  Historically the driver for this hardware has been
+So what if you have a system older than a Haswell era Intel CPU?  Historically the driver for this hardware has been
 included in the base FreeBSD OS and will continue to be so in 12.0-RELEASE, but the expectation is it will be removed by 
 version 13.  To prepare for this eventuality a new port has been created named `drm-legacy-kmod`.  If you have one of these
 older systems and are having problems with graphics using the `drm-kmod` port, please try this legacy version.
