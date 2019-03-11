@@ -95,6 +95,8 @@ I hope this guide is helpful for you all.  You will notice that there is no need
 
 Also, if you have a system with an AMD GPU you would follow most of the same steps above.  If you read the package message after installing `drm-kmod` you will see instructions on how to enable that in rc.conf.
 
+Additionally, if you would like to boot up Xorg by default, you can refer to the [FreeBSD Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/x-xdm.html) section on configuring XDM.
+
 If you run into problems don't hesitate to reach out to us on the freebsd-x11@ mailing list or on [Gitter.im](https://gitter.im/FreeBSDDesktop/Lobby) where we hang out in the "FreeBSDDesktop" room.
 
 Happy hacking!
